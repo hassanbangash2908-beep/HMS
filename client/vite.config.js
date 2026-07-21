@@ -10,7 +10,7 @@ export default defineConfig({
     proxy: {
       // Proxy /api requests to the Express server during development
       "/api": {
-        target: "http://192.168.18.110:5000",
+        target: "http://localhost:5000",
         changeOrigin: true,
       },
     },
