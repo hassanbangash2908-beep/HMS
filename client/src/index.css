@@ -1156,10 +1156,14 @@ textarea:focus {
     grid-template-columns: 1fr !important;
   }
 
-  /* Billing/pharmacy grids stack */
+  /* Billing/pharmacy/scheduling grids stack vertically on mobile */
   .billing-main-grid,
-  .pharmacy-grid {
+  .pharmacy-grid,
+  .scheduling-split,
+  .pharmacist-split,
+  .billing-split {
     grid-template-columns: 1fr !important;
+    height: auto !important;
   }
 
   /* Page headers shrink */
